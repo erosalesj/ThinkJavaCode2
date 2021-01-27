@@ -27,7 +27,7 @@ public class Formatting {
         inch = (int) (cm / CM_PER_INCH);
         System.out.printf("%f cm = %d in\n", cm, inch);
 
-        System.out.printf("inches = %d" + inch);  // error
+        System.out.printf("inches = %d" , inch);  // replace '+' with ',' to prevent an error
     }
 
 }
